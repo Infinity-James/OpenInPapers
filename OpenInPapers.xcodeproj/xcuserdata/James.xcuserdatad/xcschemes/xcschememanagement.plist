@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>OpenInPapersExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -18,6 +23,11 @@
 			<true/>
 		</dict>
 		<key>1A7C5384197D1A8A00EE9A26</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1AD02CA71986760D009568F5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

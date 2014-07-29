@@ -12,6 +12,10 @@
 		1A7C53A9197D1C8200EE9A26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A7C539C197D1C8200EE9A26 /* Main.storyboard */; };
 		1A7C53AA197D1C8200EE9A26 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A7C539E197D1C8200EE9A26 /* Images.xcassets */; };
 		1A7C53AE197D1D1700EE9A26 /* OpenInPapersExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7C53A4197D1C8200EE9A26 /* OpenInPapersExtensionTests.swift */; };
+		1AD02CB31986760E009568F5 /* OpenInPapersExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1AD02CA81986760D009568F5 /* OpenInPapersExtension.appex */; };
+		1AD02CBF19867661009568F5 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD02CBB19867661009568F5 /* ActionViewController.swift */; };
+		1AD02CC019867661009568F5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AD02CBD19867661009568F5 /* Info.plist */; };
+		1AD02CC119867661009568F5 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD02CBE19867661009568F5 /* MainInterface.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,7 +26,35 @@
 			remoteGlobalIDString = 1A7C5372197D1A8900EE9A26;
 			remoteInfo = OpenInPapersExtension;
 		};
+		1AD02CB01986760E009568F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A7C536B197D1A8900EE9A26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AD02CA71986760D009568F5;
+			remoteInfo = OpenInPapersExtension;
+		};
+		1AD02CB41986760E009568F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A7C536B197D1A8900EE9A26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AD02CA71986760D009568F5;
+			remoteInfo = OpenInPapersExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1AD02CB21986760E009568F5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1AD02CB31986760E009568F5 /* OpenInPapersExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1A7C5373197D1A8900EE9A26 /* OpenInPapers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenInPapers.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -34,6 +66,10 @@
 		1A7C53A0197D1C8200EE9A26 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A7C53A4197D1C8200EE9A26 /* OpenInPapersExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenInPapersExtensionTests.swift; sourceTree = "<group>"; };
 		1A7C53A6197D1C8200EE9A26 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AD02CA81986760D009568F5 /* OpenInPapersExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OpenInPapersExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AD02CBB19867661009568F5 /* ActionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		1AD02CBD19867661009568F5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AD02CBE19867661009568F5 /* MainInterface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,12 +87,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1AD02CA51986760D009568F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		1A7C536A197D1A8900EE9A26 = {
 			isa = PBXGroup;
 			children = (
+				1AD02CB919867661009568F5 /* OpenInPapersExtension */,
 				1A7C5395197D1C8200EE9A26 /* OpenInPapers */,
 				1A7C53A2197D1C8200EE9A26 /* OpenInPapersTests */,
 				1A7C5374197D1A8900EE9A26 /* Products */,
@@ -68,6 +112,7 @@
 			children = (
 				1A7C5373197D1A8900EE9A26 /* OpenInPapers.app */,
 				1A7C5385197D1A8A00EE9A26 /* OpenInPapersTests.xctest */,
+				1AD02CA81986760D009568F5 /* OpenInPapersExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -157,6 +202,32 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1AD02CB919867661009568F5 /* OpenInPapersExtension */ = {
+			isa = PBXGroup;
+			children = (
+				1AD02CBA19867661009568F5 /* Controller */,
+				1AD02CBC19867661009568F5 /* Supporting Files */,
+			);
+			path = OpenInPapersExtension;
+			sourceTree = "<group>";
+		};
+		1AD02CBA19867661009568F5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1AD02CBB19867661009568F5 /* ActionViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1AD02CBC19867661009568F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AD02CBD19867661009568F5 /* Info.plist */,
+				1AD02CBE19867661009568F5 /* MainInterface.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,10 +238,13 @@
 				1A7C536F197D1A8900EE9A26 /* Sources */,
 				1A7C5370197D1A8900EE9A26 /* Frameworks */,
 				1A7C5371197D1A8900EE9A26 /* Resources */,
+				1AD02CB21986760E009568F5 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1AD02CB11986760E009568F5 /* PBXTargetDependency */,
+				1AD02CB51986760E009568F5 /* PBXTargetDependency */,
 			);
 			name = OpenInPapers;
 			productName = OpenInPapersExtension;
@@ -195,6 +269,23 @@
 			productReference = 1A7C5385197D1A8A00EE9A26 /* OpenInPapersTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		1AD02CA71986760D009568F5 /* OpenInPapersExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AD02CB81986760E009568F5 /* Build configuration list for PBXNativeTarget "OpenInPapersExtension" */;
+			buildPhases = (
+				1AD02CA41986760D009568F5 /* Sources */,
+				1AD02CA51986760D009568F5 /* Frameworks */,
+				1AD02CA61986760D009568F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenInPapersExtension;
+			productName = OpenInPapersExtension;
+			productReference = 1AD02CA81986760D009568F5 /* OpenInPapersExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -210,6 +301,9 @@
 					1A7C5384197D1A8A00EE9A26 = {
 						CreatedOnToolsVersion = 6.0;
 						TestTargetID = 1A7C5372197D1A8900EE9A26;
+					};
+					1AD02CA71986760D009568F5 = {
+						CreatedOnToolsVersion = 6.0;
 					};
 				};
 			};
@@ -228,6 +322,7 @@
 			targets = (
 				1A7C5372197D1A8900EE9A26 /* OpenInPapers */,
 				1A7C5384197D1A8A00EE9A26 /* OpenInPapersTests */,
+				1AD02CA71986760D009568F5 /* OpenInPapersExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -238,11 +333,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A7C53A9197D1C8200EE9A26 /* Main.storyboard in Resources */,
+				1AD02CC119867661009568F5 /* MainInterface.storyboard in Resources */,
 				1A7C53AA197D1C8200EE9A26 /* Images.xcassets in Resources */,
+				1AD02CC019867661009568F5 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1A7C5383197D1A8A00EE9A26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD02CA61986760D009568F5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,6 +362,7 @@
 			files = (
 				1A7C53A8197D1C8200EE9A26 /* ViewController.swift in Sources */,
 				1A7C53A7197D1C8200EE9A26 /* AppDelegate.swift in Sources */,
+				1AD02CBF19867661009568F5 /* ActionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +374,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1AD02CA41986760D009568F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -276,6 +388,16 @@
 			isa = PBXTargetDependency;
 			target = 1A7C5372197D1A8900EE9A26 /* OpenInPapers */;
 			targetProxy = 1A7C5386197D1A8A00EE9A26 /* PBXContainerItemProxy */;
+		};
+		1AD02CB11986760E009568F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AD02CA71986760D009568F5 /* OpenInPapersExtension */;
+			targetProxy = 1AD02CB01986760E009568F5 /* PBXContainerItemProxy */;
+		};
+		1AD02CB51986760E009568F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AD02CA71986760D009568F5 /* OpenInPapersExtension */;
+			targetProxy = 1AD02CB41986760E009568F5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -426,6 +548,30 @@
 			};
 			name = Release;
 		};
+		1AD02CB61986760E009568F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/OpenInPapersExtension/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1AD02CB71986760E009568F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "$(SRCROOT)/OpenInPapersExtension/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -455,6 +601,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		1AD02CB81986760E009568F5 /* Build configuration list for PBXNativeTarget "OpenInPapersExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD02CB61986760E009568F5 /* Debug */,
+				1AD02CB71986760E009568F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
